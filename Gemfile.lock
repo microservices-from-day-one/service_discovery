@@ -1,0 +1,29 @@
+PATH
+  remote: .
+  specs:
+    service_discovery (0.0.1)
+      consul-client (~> 0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (8.2.1)
+    consul-client (0.1.1)
+    metaclass (0.0.4)
+    minitest (5.8.3)
+    mocha (1.1.0)
+      metaclass (~> 0.0.1)
+    rake (10.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  minitest
+  mocha
+  rake
+  service_discovery!
+
+BUNDLED WITH
+   1.10.6
